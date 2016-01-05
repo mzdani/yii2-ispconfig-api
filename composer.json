@@ -4,7 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2", "extension", "ispconfig", "ispconfig api", "ispconfig api"],
     "license": "BSD-3-Clause",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "support": {
         "issues": "https://bitbucket.org/mzdani/yii2-ispconfig-api/issues?status=new&status=open",
         "source": "https://bitbucket.org/mzdani/yii2-ispconfig-api"
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mdscomp\\ISPConfig": ""
+            "mdscomp\\ISPConfig\\": ""
         }
     }
 }
