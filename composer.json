@@ -1,0 +1,28 @@
+{
+    "name": "mzdani/yii2-ispconfig-api",
+    "description": "Yii2 ISPConfig API Wrapper",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "ispconfig", "ispconfig api", "ispconfig api wrapper"],
+    "license": "BSD-3-Clause",
+    "version": "1.0.4",
+    "support": {
+        "issues": "https://github.com/mzdani/yii2-ispconfig-api/issues",
+        "source": "https://github.com/mzdani/yii2-ispconfig-api"
+    },
+    "authors": [
+        {
+            "name": "Mirdani Handoko",
+            "email": "mirdani.handoko@gmail.com",
+            "homepage": "https://blog.mdscomp.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "mdscomp\\ISPConfig\\": ""
+        }
+    }
+}
