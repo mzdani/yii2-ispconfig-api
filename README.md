@@ -1,4 +1,4 @@
-Yii2 Web Font Loader Wrapper
+Yii2 ISPConfig API Wrapper
 =============
 
-[Read Wiki Please](https://bitbucket.org/mzdani/yii2-ispconfig-api/wiki/Home)
+[Installation, Usage, and Patch](http://mzdani.github.io/yii2-ispconfig-api)
