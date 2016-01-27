@@ -79,12 +79,12 @@ My Page
 <span class="pl-s1"></span>
 <span class="pl-s1"></span><span class="pl-pse"><span class="pl-s1">?</span>&gt;</span></pre></div>
 
-<p>Don't forget to <code>logoout()</code> after using, or your ISPConfig database remote session will full of "open session". And sometimes I get the wrong result because not <code>logout()</code> after get data.</p>
+<p>Don't forget to <code>logout()</code> after using, or your ISPConfig database remote session will full of "open session". And sometimes I get the wrong result because not <code>logout()</code> after get data.</p>
 
 <h2>
 <a id="ispconfig-custom-patch" class="anchor" href="#ispconfig-custom-patch" aria-hidden="true"><span class="octicon octicon-link"></span></a>ISPConfig Custom Patch</h2>
 
-<p>Because ISPConfig doesn't have any support to show quota usage with remote api. I must add new function into default ISPConfig remote api file. You can find it from <code>/usr/local/ispconfig/interface/lib/classes/remoting.inc.php</code>, open it and insert new function below into at the end of class.</p>
+<p>Because ISPConfig doesn't have any support to show quota usage with remote api without call one by one related function, and I'm too lazy to always call that, so I add new function into default ISPConfig remote api file. You can find it from <code>/usr/local/ispconfig/interface/lib/classes/remoting.inc.php</code>, open it and insert new function below into at the end of class.</p>
 
 <div class="highlight highlight-text-html-php"><pre><span class="pl-pse">&lt;?php</span><span class="pl-s1"></span>
 <span class="pl-s1"></span>
@@ -277,10 +277,10 @@ My Page
 
 <p>and after some theming, here is the result.</p>
 
-<p><img src="https://bitbucket.org/repo/76XnzK/images/2480093029-Screenshot_507.jpg" alt="Screenshot_507.jpg">
-<img src="https://bitbucket.org/repo/76XnzK/images/884887269-Screenshot_508.jpg" alt="Screenshot_508.jpg">
-<img src="https://bitbucket.org/repo/76XnzK/images/1760568156-Screenshot_509.jpg" alt="Screenshot_509.jpg">
-<img src="https://bitbucket.org/repo/76XnzK/images/2286964774-Screenshot_510.jpg" alt="Screenshot_510.jpg"></p>
+<p><img src="http://i.imgur.com/tiQWREv.jpg" alt="Screenshot_507.jpg">
+<img src="http://i.imgur.com/rWSFNp4.jpg" alt="Screenshot_508.jpg">
+<img src="http://i.imgur.com/xqqjrll.jpg" alt="Screenshot_509.jpg">
+<img src="http://i.imgur.com/dJiS1dp.jpg" alt="Screenshot_510.jpg"></p>
 
 <p>Sorry for my bad english and code. Have fun!</p>
       </section>
@@ -290,4 +290,3 @@ My Page
     
   </body>
 </html>
->>>>>>> d92f8282919c4db6ab7a17dcd4af7ab7b4ecd68f
